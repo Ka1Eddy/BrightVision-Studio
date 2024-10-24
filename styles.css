@@ -1,0 +1,166 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Vivid and colorful header */
+header {
+    background: linear-gradient(45deg, #ff5722, #ff9800);
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #388e3c;
+}
+
+/* About section */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #ff5722;
+}
+
+#about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Projects section */
+#projects {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    color: #ff9800;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #333;
+}
+
+/* Contact section */
+#contact {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#contact p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    font-size: 1.2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
